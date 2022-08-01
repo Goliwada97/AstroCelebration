@@ -1,0 +1,947 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-lightyellow {
+    background-color: #ffdf80;
+    color: black;
+}
+
+.body {
+    background-color: black;
+    color: white;
+}
+
+/* header start */
+.logo {
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+
+.naviteam {
+    border-right: 0.3px solid black;
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    border-left: 0.3px solid black;
+    padding: 0.6em;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav li:hover {
+    background-color: #ffe6b3;
+}
+
+/* header end */
+
+
+/* main start */
+
+
+/* IMAGE START */
+
+
+.img {
+    margin-bottom: 3rem;
+    /* padding-top: 20px; */
+    justify-content: space-evenly;
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: nowrap;
+    overflow: hidden;
+}
+
+.img img {
+    /* display: block; */
+    border-radius: 3em;
+    border: 1px solid #ffff99;
+    margin: 2em 0.6em;
+    height: 399px;
+    width: 460px;
+    overflow: hidden;
+}
+
+.imgshow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.image8 {
+    padding: 15px;
+    flex-direction: column;
+    margin: 80px 0;
+    overflow: hidden;
+}
+
+.imgshow img {
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 560px;
+    height: 320px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+
+/* IMAGE END */
+
+
+/* FEATURE START */
+
+
+.detailiteam {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.featuredetail {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.feature {
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+}
+
+.feature a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 5px;
+}
+
+
+/* FEATURE START */
+
+
+/* EVENT START */
+.event {
+    padding: 0 8em;
+}
+
+.eventheader {
+    /* overflow: auto; */
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px auto;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+
+.eventitle {
+    text-align: center;
+    margin: 5px 10px;
+    justify-content: end;
+    margin: 3em;
+    font-size: 1.3em;
+}
+
+.eventimg {
+    /* border: 1px solid red; */
+    padding: 0 5em;
+    display: flex;
+    margin: 2em;
+
+}
+
+.eventimg img {
+    display: inline-block;
+    width: 28rem;
+    border: 1px solid #f2d729;
+    border-radius: 2rem;
+    margin: 2em auto;
+
+}
+
+.eventwedding {
+    text-align: right;
+    font-size: 1.3em;
+    font-weight: lighter;
+    padding-left: 5em;
+}
+
+.eventwedding0 {
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin: 1rem;
+    padding-right: 5em;
+}
+
+.thevent {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+    padding-left: 5em;
+    font-weight: bold;
+}
+
+.thevent1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+    padding-right: 5em;
+    font-weight: bold;
+}
+
+
+/* EVENT END */
+
+/* FORM START*/
+
+.readyh1 {
+    color: black;
+    background-color: #ffdf80;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.mainform1 {
+    color: black;
+    background-color: #ffdf80;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    flex-flow: nowrap;
+
+}
+
+.formth1 {
+    /* color: black; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+
+}
+
+.form1 {
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #f2d729;
+    border-radius: 20px;
+    margin: 1em 5em;
+    /* height: 20em; */
+    font-style: normal;
+}
+
+.form1 input {
+    border-radius: 15px;
+    background-color: #ffe6b3;
+    width: 100%;
+    padding: 4px;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.maindate {
+    display: flex;
+    align-items: flex-start;
+}
+
+#checkbox1 {
+    width: 3.5em;
+    border-radius: 8px;
+    margin-left: 5em;
+
+}
+
+#checkbox2 {
+    display: block;
+    border-radius: 8px;
+    margin-left: 1em;
+    margin-bottom: 20px;
+}
+
+#date1 {
+    width: 6em;
+    border-radius: 12em;
+    text-align: center;
+
+
+}
+
+#submit1 {
+    background-color: #ffe6b3;
+    border-radius: 15px;
+    box-shadow: 0.1em 0.3em #c8c0c0;
+    display: block;
+    width: 100px;
+    margin: 1em auto;
+}
+
+.quet {
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.4em;
+}
+
+
+/* ABOUT US CSS START */
+
+/* IMG START */
+.imgpraga {
+    text-align: center;
+    font-size: 1.4em;
+    padding: 2em;
+}
+
+
+/* IMG END */
+
+/* ASTRO START */
+
+.celeb {
+    padding: 1em;
+}
+
+.celeb1 {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+
+.celeb2 {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 400;
+    padding-top: 0.3em;
+}
+
+.celeb3 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 100;
+    padding: 1.3em;
+}
+
+.celeb4 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+/* ASTRO END */
+
+/* INDOOR START */
+
+.indoormain {
+    background-color: black;
+}
+
+.indoorh2 {
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+.indoordetail {
+    text-align: center;
+    padding: 1.3em;
+
+}
+
+.indoordetail1 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.img1 {
+    margin-bottom: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: nowrap;
+    overflow: hidden;
+}
+
+.img1 img {
+    display: block;
+    border-radius: 3em;
+    border: 1px solid #ffff99;
+    margin: 10px 3px;
+    height: 399px;
+    width: 280px;
+}
+
+/* INDOOR END */
+/* OUTDOOR START */
+.outdoorh2 {
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+
+.outdoordetail {
+    text-align: center;
+    padding: 1.3em;
+
+}
+
+.outdoordetail1 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.img2 {
+    margin-bottom: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: nowrap;
+    overflow: hidden;
+}
+
+.img2 img {
+    display: block;
+    border-radius: 3em;
+    border: 1px solid black;
+    margin: 10px 3px;
+    height: 399px;
+    width: 280px;
+}
+
+
+/* OUTDOOR END */
+/* KITCHEN START */
+
+.ktdoorh2 {
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+
+.ktdoordetail {
+    text-align: center;
+    padding: 1.3em;
+
+}
+
+.ktdoordetail1 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.img3 {
+    margin-bottom: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.img3 img {
+    display: block;
+    border-radius: 3em;
+    border: 1px solid #ffff99;
+    margin: 10px 3px;
+    height: 399px;
+    width: 480px;
+}
+
+/* KITCHEN END */
+/* DRESSING ROOM START  */
+
+
+.drdoorh2 {
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+
+.drdoordetail {
+    text-align: center;
+    padding: 1.3em;
+
+}
+
+.drdoordetail1 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.img4 {
+    margin-bottom: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.img4 img {
+    display: block;
+    border-radius: 3em;
+    border: 1px solid black;
+    margin: 10px 3px;
+    height: 399px;
+    width: 480px;
+}
+
+
+/* DRESSING ROOM END  */
+/* OTHER FEATURES START */
+
+
+.otdoorh2 {
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+
+.otdoordetail {
+    text-align: center;
+    padding: 1.3em;
+
+}
+
+.otdoordetail1 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.img5 {
+    margin-bottom: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: nowrap;
+    overflow: hidden;
+}
+
+.img5 img {
+    display: block;
+    border-radius: 3em;
+    border: 1px solid #ffff99;
+    margin: 10px 3px;
+    height: 399px;
+    width: 280px;
+}
+
+
+/* OTHER FEATURES END */
+
+
+/* ABOUT US END */
+/* SERVICES START */
+
+
+.serdata {
+    height: 100%;
+}
+
+.serdetais {
+    text-align: center;
+    padding: 2em;
+}
+
+.serdetais p {
+    padding: 1em;
+    font-size: larger;
+}
+
+
+/* SERVICESIMG_START */
+/* LEFT IMG LAYOUT START */
+
+
+.serimgdetail {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    overflow: auto;
+    height: 680px;
+}
+
+.imgdetails {
+    position: relative;
+    padding: 2rem;
+
+}
+
+.imgdetails2 {
+    width: 443px;
+    height: 296px;
+    border-radius: 3em;
+    border: 1px solid#ffff99;
+}
+
+.imgdetails1 {
+    position: absolute;
+    width: 443px;
+    height: 296px;
+    top: 610px;
+    left: 330px;
+    border-radius: 3em;
+    border: 1px solid#ffff99;
+}
+
+.imgpara {
+    text-align: center;
+    width: 600px;
+    padding: 0 2em;
+    font-size: 1.8rem;
+    height: 260px;
+}
+
+.imgpara p {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.imgpara h5 {
+    background-color: #ffff99;
+    color: black;
+    display: inline-block;
+    padding: 0.4em;
+    border-radius: 1em;
+    border: 1px solid#ffff99;
+    margin: 2em 0;
+
+}
+
+#astroCelebrations {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* LEFT IMG LAYOUT END */
+/* SERVICESIMG_END */
+
+/* BUSSINESSS START */
+/* RIGHT IMG LAYOUT START */
+
+
+.bussimgdetail {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    overflow: auto;
+    height: 700px;
+}
+
+.bussimgdetails {
+    position: relative;
+    padding: 2rem;
+
+}
+
+.imgdetails02 {
+    width: 443px;
+    /* height: 296px; */
+    border-radius: 3em;
+    border: 1px solid#ffff99;
+}
+
+.imgdetails01 {
+    position: absolute;
+    width: 443px;
+    height: 296px;
+    right: 20px;
+    top: 1300px;
+    border-radius: 3em;
+    border: 1px solid#ffff99;
+}
+
+.bussimgpara {
+    text-align: center;
+    width: 600px;
+    padding: 0 2em;
+    font-size: 1.8rem;
+    height: 260px;
+}
+
+.bussimgpara p {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.bussimgpara h5 {
+    background-color: #ffff99;
+    color: black;
+    display: inline-block;
+    padding: 0.4em;
+    border-radius: 1em;
+    border: 1px solid#ffff99;
+    margin: 2em 0;
+}
+
+
+/* RIGHT ING LAYOUT END */
+/* BUSSINESSS START */
+
+
+
+/* PARTY START */
+
+
+.partyimgdetail {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    overflow: auto;
+    height: 700px;
+}
+
+.partyimgdetails {
+    position: relative;
+    padding: 2rem;
+
+}
+
+.imgdetails002 {
+    width: 443px;
+    /* height: 296px; */
+    border-radius: 3em;
+    border: 1px solid#ffff99;
+}
+
+.imgdetails001 {
+    position: absolute;
+    width: 443px;
+    height: 296px;
+    left: 400px;
+    top: 2000px;
+    border-radius: 3em;
+    border: 1px solid#ffff99;
+}
+
+.partyimgpara {
+    text-align: center;
+    width: 600px;
+    padding: 0 2em;
+    font-size: 1.8rem;
+    height: 260px;
+}
+
+.partyimgpara p {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.partyimgpara h5 {
+    background-color: #ffff99;
+    color: black;
+    display: inline-block;
+    padding: 0.4em;
+    border-radius: 1em;
+    border: 1px solid#ffff99;
+    margin: 2em 0;
+}
+
+
+/* PARTY END */
+/* OTHER START */
+
+
+
+.otimgdetail {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    overflow: auto;
+    height: 680px;
+}
+
+.otimgdetails {
+    position: relative;
+    padding: 2rem;
+
+}
+
+.imgdetails0002 {
+    width: 443px;
+    height: 296px;
+    border-radius: 3em;
+    border: 1px solid#ffff99;
+}
+
+.imgdetails0001 {
+    position: absolute;
+    width: 443px;
+    height: 296px;
+    top: 2690px;
+    right: 20px;
+    border-radius: 3em;
+    border: 1px solid#ffff99;
+}
+
+.otimgpara {
+    text-align: center;
+    width: 600px;
+    padding: 0 2em;
+    font-size: 1.8rem;
+    height: 260px;
+}
+
+.otimgpara p {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.otimgpara h5 {
+    background-color: #ffff99;
+    color: black;
+    display: inline-block;
+    padding: 0.4em;
+    border-radius: 1em;
+    border: 1px solid #ffff99;
+    margin: 2em 0;
+}
+
+
+
+/* OTHER END */
+/* SERVICES END */
+/* FAQS DETAIS START */
+
+
+/* START FAQSIMAGES */
+.fqasimg {
+    position: relative;
+    margin: 2em auto;
+    width: 100%;
+}
+
+.fqasimg1 {
+    object-fit: cover;
+    object-position: 90% 40%;
+    width: 100%;
+    height: 45vh;
+}
+
+.fqasimg2 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    color: white;
+    width: 100%;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 3rem;
+    word-spacing: 3px;
+}
+
+
+/* END FAQSIMAGES */
+/* START DETAIL */
+
+
+.detailfaqs {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.detailfaqs div {
+    width: 70%;
+    padding: 1.7rem;
+
+}
+
+.detailfaqs h3 {
+    font-size: 2rem;
+    padding: 0.2rem;
+}
+
+.detailfaqs p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* END DETAIL */
+/* FAQS DETAIS END */
+/* BOOK START */
+
+.formbody {
+    padding: 2.6em;
+}
+
+.mainform {
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    flex-flow: nowrap;
+
+}
+
+
+/* BOOK END */
+/* FOOTER START  */
+
+
+.questdetail {
+    text-align: center;
+    padding: 2em;
+
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    padding: 1em;
+    justify-content: space-around;
+
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+}
+
+.astro {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 900;
+    padding: 1em 0;
+}
+
+
+/* FOOTTER END */
