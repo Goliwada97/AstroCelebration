@@ -15,8 +15,10 @@
 }
 
 /* header start */
-.logo {
+.logo_img {
     text-align: center;
+    padding: 1.3rem 0;
+    margin-bottom: 1.5rem;
 }
 
 .nav {
@@ -36,14 +38,7 @@
     padding: 0.6em;
 }
 
-.nav a {
-    text-decoration: none;
-    color: black;
-}
 
-.nav li:hover {
-    background-color: #ffe6b3;
-}
 
 /* header end */
 
@@ -55,26 +50,38 @@
 
 
 .img {
-    margin-bottom: 3rem;
-    /* padding-top: 20px; */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
     display: flex;
-    align-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: nowrap;
+    width: auto;
+    height: 650px;
+}
+
+
+.img img {
+    width: 365px;
+    height: 532px;
+    border-radius: 30px;
+    border: 1px solid #ffdf80;
+    margin: 2.5rem 0.5rem;
+    align-content: flex-start;
+    object-fit: cover;
+    object-position: 80% 100%;
     overflow: hidden;
 }
 
-.img img {
-    /* display: block; */
-    border-radius: 3em;
-    border: 1px solid #ffff99;
-    margin: 2em 0.6em;
-    height: 399px;
-    width: 460px;
-    overflow: hidden;
-}
+/* .header-image {
+    width: 365px;
+    height: 532px;
+    border-radius: 30px;
+    border: 1px solid #ffdf80;
+    margin: 2rem 0;
+    overflow: auto;
+    object-fit: cover;
+
+
+} */
+
 
 .imgshow {
     display: flex;
@@ -87,18 +94,16 @@
 
 .image8 {
     padding: 15px;
-    flex-direction: column;
+    flex-direction: row;
     margin: 80px 0;
-    overflow: hidden;
 }
 
 .imgshow img {
-    border-radius: 15px;
+    border-radius: 30px;
     border: 1px solid black;
-    width: 560px;
-    height: 320px;
+    width: 545px;
+    height: 365px;
     margin: 20px;
-    overflow: hidden;
 }
 
 
@@ -109,9 +114,9 @@
 
 
 .detailiteam {
-    padding: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    padding: 2rem;
     text-align: center;
+    font-weight: 5em;
 }
 
 .featuredetail {
@@ -122,15 +127,8 @@
 
 .feature {
     text-align: center;
-    list-style: none;
-    padding: 20px;
-}
-
-.feature a {
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    border: 5px;
+    padding: 0.8rem;
+    list-style-position: inside;
 }
 
 
@@ -138,76 +136,125 @@
 
 
 /* EVENT START */
+
+
+.eventheader p {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+.eventitle p {
+    font-size: 20px;
+    padding: 2rem;
+}
+
 .event {
-    padding: 0 8em;
+    padding: 0rem 9rem;
 }
 
-.eventheader {
-    /* overflow: auto; */
-    text-align: center;
-    font-size: 3rem;
-    margin: 10px auto;
-    font-weight: 900;
-    margin-bottom: 2rem;
-}
-
-
-.eventitle {
-    text-align: center;
-    margin: 5px 10px;
-    justify-content: end;
-    margin: 3em;
-    font-size: 1.3em;
-}
+/* IMAGE EVENT ONE START */
 
 .eventimg {
-    /* border: 1px solid red; */
-    padding: 0 5em;
     display: flex;
-    margin: 2em;
-
+    overflow: auto;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 5rem 0;
 }
 
-.eventimg img {
-    display: inline-block;
-    width: 28rem;
-    border: 1px solid #f2d729;
-    border-radius: 2rem;
-    margin: 2em auto;
-
+.img9 {
+    width: 352px;
+    height: 235px;
+    /* object-fit: cover;
+    object-position: 80% 100%; */
+    border-radius: 30px;
 }
 
 .eventwedding {
-    text-align: right;
-    font-size: 1.3em;
-    font-weight: lighter;
-    padding-left: 5em;
-}
-
-.eventwedding0 {
-    text-align: left;
-    font-size: 1.3rem;
-    font-weight: lighter;
-    margin: 1rem;
-    padding-right: 5em;
+    font-size: 24px;
+    flex: 2 2 10%;
+    padding-left: 6rem;
+    text-align: center;
+    /* border: 1px solid red; */
 }
 
 .thevent {
-    text-align: center;
-    font-size: 2rem;
-    margin: 1rem;
-    padding-left: 5em;
-    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    padding: 1rem;
 }
 
-.thevent1 {
-    text-align: center;
-    font-size: 2rem;
-    margin: 1rem;
-    padding-right: 5em;
-    font-weight: bold;
+/* IMAGE EVENT ONE END */
+/* IMAGE EVENT SECOND START */
+
+.eventimg2 {
+    display: flex;
+    overflow: auto;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 5rem 0;
 }
 
+.img10 {
+    width: 352px;
+    height: 235px;
+    /* object-fit: cover;
+    object-position: 80% 100%; */
+    border-radius: 30px;
+}
+
+.eventwedding2 {
+    font-size: 24px;
+    flex: 2 2 10%;
+    padding-right: 6rem;
+    text-align: center;
+
+    /* border: 1px solid red; */
+}
+
+.thevent2 {
+    font-size: 20px;
+    text-align: left;
+    padding: 1rem;
+}
+
+/* IMAGE EVENT SECOND END */
+/* IMAGE EVENT THIRD START */
+
+.eventimg3 {
+    display: flex;
+    overflow: auto;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 5rem 0;
+}
+
+.img11 {
+    width: 352px;
+    height: 235px;
+    /* object-fit: cover;
+    object-position: 80% 100%; */
+    border-radius: 30px;
+}
+
+.eventwedding3 {
+    font-size: 24px;
+    flex: 2 2 10%;
+    padding-left: 6rem;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.thevent3 {
+    font-size: 20px;
+    text-align: right;
+    padding: 1rem;
+}
+
+
+/* IMAGE EVENT THIRD END */
 
 /* EVENT END */
 
@@ -217,7 +264,8 @@
     color: black;
     background-color: #ffdf80;
     text-align: center;
-    padding: 2em 0;
+    padding: 1em 0;
+    font-size: 30px;
 }
 
 .mainform1 {
@@ -226,36 +274,40 @@
     display: flex;
     justify-content: space-evenly;
     /* flex-wrap: wrap; */
-    flex-flow: nowrap;
-
+    flex-direction: row;
+    overflow: hidden;
+    padding-bottom: 3rem;
 }
 
-.formth1 {
-    /* color: black; */
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: oblique;
-
-}
 
 .form1 {
     background-color: white;
     text-align: left;
-    padding: 20px;
-    border: 1px solid #f2d729;
-    border-radius: 20px;
-    margin: 1em 5em;
-    /* height: 20em; */
+    padding: 30px;
+    /* border: 1px solid #000; */
+    border-radius: 30px;
+    margin: 1rem auto;
     font-style: normal;
+    width: 621px;
+    height: 531px;
+
 }
 
 .form1 input {
-    border-radius: 15px;
-    background-color: #ffe6b3;
-    width: 100%;
-    padding: 4px;
-    margin: 5px;
+    border-radius: 30px;
+    background: rgba(221, 191, 128, 0.5);
+    width: 559px;
+    height: 31px;
+    margin: 1rem;
     text-align: center;
+    border: none;
+}
+
+.form1 label {
+    font-size: 16px;
+    height: 31px;
+    margin: 20px 0;
+    /* border: 1px solid red; */
 
 }
 
@@ -265,42 +317,48 @@
 }
 
 #checkbox1 {
-    width: 3.5em;
-    border-radius: 8px;
-    margin-left: 5em;
+    width: 1.9rem;
+    border-radius: 5px;
+    margin-left: 3rem;
 
 }
 
 #checkbox2 {
-    display: block;
+    /* display: block; */
     border-radius: 8px;
-    margin-left: 1em;
+    margin-left: 0.1rem;
     margin-bottom: 20px;
 }
 
 #date1 {
-    width: 6em;
-    border-radius: 12em;
+    width: 6.2rem;
+    border-radius: 30px;
     text-align: center;
-
-
+    margin: 17px 3px;
 }
 
 #submit1 {
-    background-color: #ffe6b3;
-    border-radius: 15px;
-    box-shadow: 0.1em 0.3em #c8c0c0;
+    background: rgba(221, 191, 128, 0.5);
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: block;
-    width: 100px;
+    width: 177px;
     margin: 1em auto;
 }
 
 .quet {
     text-align: center;
-    padding: 1em 0;
-    font-size: 1.4em;
+    padding: 2em 0;
+    font-size: 1.8em;
 }
 
+.questdetail {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 5rem;
+}
 
 /* ABOUT US CSS START */
 
@@ -383,7 +441,7 @@
 }
 
 .img1 img {
-    display: block;
+    /* display: block; */
     border-radius: 3em;
     border: 1px solid #ffff99;
     margin: 10px 3px;
@@ -902,32 +960,98 @@
     padding: 2.6em;
 }
 
-.mainform {
+
+
+.mainform1 {
     color: black;
+    background-color: #000;
     display: flex;
     justify-content: space-evenly;
     /* flex-wrap: wrap; */
-    flex-flow: nowrap;
+    flex-direction: row;
+    overflow: hidden;
+    padding-bottom: 3rem;
+    margin: 0 3rem;
+}
+
+
+.form1 {
+    background-color: white;
+    text-align: left;
+    padding: 30px;
+    /* border: 1px solid #000; */
+    border-radius: 30px;
+    margin: 1rem auto;
+    font-style: normal;
+    width: 621px;
+    height: 531px;
 
 }
+
+.form1 input {
+    border-radius: 30px;
+    background: rgba(221, 191, 128, 0.5);
+    width: 559px;
+    height: 31px;
+    margin: 1rem;
+    text-align: center;
+    border: none;
+}
+
+.form1 label {
+    font-size: 16px;
+    height: 31px;
+    margin: 20px 0;
+    /* border: 1px solid red; */
+
+}
+
+.maindate {
+    display: flex;
+    align-items: flex-start;
+}
+
+#checkbox1 {
+    width: 1.9rem;
+    border-radius: 5px;
+    margin-left: 3rem;
+
+}
+
+#checkbox2 {
+    /* display: block; */
+    border-radius: 8px;
+    margin-left: 0.1rem;
+    margin-bottom: 20px;
+}
+
+#date1 {
+    width: 6.2rem;
+    border-radius: 30px;
+    text-align: center;
+    margin: 17px 3px;
+}
+
+#submit1 {
+    background: rgba(221, 191, 128, 0.5);
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: block;
+    width: 177px;
+    margin: 1em auto;
+}
+
 
 
 /* BOOK END */
 /* FOOTER START  */
 
-
-.questdetail {
-    text-align: center;
-    padding: 2em;
-
-}
-
 .container {
     text-align: center;
     display: flex;
-    padding: 1em;
+    padding-top: 2rem;
     justify-content: space-around;
-
+    overflow: hidden;
 }
 
 .container a {
@@ -938,9 +1062,10 @@
 
 .astro {
     text-align: center;
-    font-size: 1.7em;
+    font-size: 1.2em;
     font-weight: 900;
-    padding: 1em 0;
+    padding-bottom: 2rem;
+
 }
 
 
