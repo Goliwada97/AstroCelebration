@@ -71,7 +71,7 @@
 /* header end */
 
 
-/* main start */
+/* -----------------------------------------------------------main start */
 
 
 /* IMAGE START */
@@ -283,7 +283,7 @@
 
 /* IMAGE EVENT THIRD END */
 
-/* EVENT END */
+/* ---------------------------------------------------------------EVENT END */
 
 /* FORM START*/
 
@@ -688,7 +688,7 @@
 /* OTHER FEATURES END */
 
 
-/* ABOUT US END */
+/* ----------------------------------------------------------------ABOUT US END-------------------------------------------- */
 /* SERVICES START */
 
 
@@ -805,18 +805,6 @@
 
 /* LEFT IMG LAYOUT END */
 /* SERVICESIMG_END */
-
-/* BUSSINESSS START */
-/* RIGHT IMG LAYOUT START */
-
-
-
-
-
-/* RIGHT ING LAYOUT END */
-/* BUSSINESSS START */
-
-
 
 /* PARTY START */
 
@@ -990,21 +978,22 @@
 
 /* OTHER END */
 /* SERVICES END */
-/* FAQS DETAIS START */
+/* -------------------------------------------------------------FAQS DETAIS START----------------------------------------- */
 
 
 /* START FAQSIMAGES */
 .fqasimg {
     position: relative;
-    margin: 2em auto;
+    margin: 2em 0;
     width: 100%;
+    justify-content: space-around;
 }
 
 .fqasimg1 {
     object-fit: cover;
     object-position: 90% 40%;
-    width: 100%;
-    height: 45vh;
+    width: 1440px;
+    height: 297px;
 }
 
 .fqasimg2 {
@@ -1033,17 +1022,18 @@
 
 .detailfaqs div {
     width: 70%;
-    padding: 1.7rem;
+    padding: 1.8rem;
+    font-weight: 800;
 
 }
 
 .detailfaqs h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 0.2rem;
 }
 
 .detailfaqs p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 100;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -1051,7 +1041,7 @@
 
 
 /* END DETAIL */
-/* FAQS DETAIS END */
+/*------------------------------------------------ FAQS DETAIS END-------------------------------------------------------- */
 /* BOOK START */
 
 .formbody {
@@ -1175,4 +1165,4 @@
 
 }
 
-/* FOOTTER END */
+/* ------------------------------------------------------FOOTTER END-------------------------------------------------------*/
