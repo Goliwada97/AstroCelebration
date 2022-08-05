@@ -7,11 +7,18 @@
 .bg-lightyellow {
     background-color: #ffdf80;
     color: black;
+
 }
 
 .body {
     background-color: black;
     color: white;
+
+}
+
+.center_section {
+    display: flex;
+    justify-content: center;
 }
 
 .container_center {
@@ -48,12 +55,20 @@
 }
 
 .naviteam {
-    border-right: 0.3px solid black;
+    border-right: 1px solid black;
     text-align: center;
     width: 25%;
     margin: 0 auto;
-    border-left: 0.3px solid black;
+    border-left: 1px solid black;
     padding: 0.6em;
+}
+
+#navpaddingleft {
+    border-left: none;
+}
+
+#navpaddingright {
+    border-right: none;
 }
 
 
@@ -377,7 +392,7 @@
     margin-bottom: 5rem;
 }
 
-/* ABOUT US CSS START */
+/* --------------------------------------------ABOUT US CSS START -----------------------------------*/
 
 /* IMG START */
 .imgpraga {
@@ -626,11 +641,6 @@
 /* DRESSING ROOM END  */
 /* OTHER FEATURES START */
 
-.other {
-    display: flex;
-    justify-content: center;
-}
-
 .otdoorh2 {
     text-align: center;
     padding-top: 2.5rem;
@@ -686,10 +696,6 @@
 /* SERVICES START */
 
 
-.serdata {
-    height: 100%;
-}
-
 .serdetail {
     font-size: 1.5rem;
     font-weight: 700;
@@ -710,7 +716,7 @@
 .serdetail02 {
     font-size: 1.25rem;
     font-weight: 600;
-    padding: 1rem;
+    padding: 1.2rem;
     text-align: center;
     word-spacing: 2px;
 }
@@ -751,7 +757,7 @@
     height: 296px;
     border-radius: 1.9rem;
     border: 1px solid#ffff99;
-    margin: 10rem;
+    margin: 9rem;
 }
 
 .imgpara {
@@ -775,6 +781,7 @@
     word-spacing: 1px;
     letter-spacing: 1px;
     text-align: right;
+    padding: 0 2rem;
 }
 
 
@@ -807,86 +814,6 @@
 /* RIGHT IMG LAYOUT START */
 
 
-
-.serimgdetail01 {
-    display: flex;
-    justify-content: ;
-    overflow: auto;
-    height: 680px;
-}
-
-.imgdetail10 {
-    position: relative;
-    padding: 0 3rem;
-}
-
-.imgdetail02 {
-    position: relative;
-    width: 443px;
-    height: 296px;
-    border-radius: 1.9rem;
-    border: 1px solid#ffff99;
-    margin: 9rem;
-}
-
-.imgdetail01 {
-    position: relative;
-    position: absolute;
-    width: 443px;
-    height: 296px;
-    border-radius: 1.9rem;
-    border: 1px solid#ffff99;
-
-}
-
-.imgpara01 {
-    text-align: center;
-    height: 420px;
-    width: 560px;
-    padding: 0 2em;
-    letter-spacing: 1px;
-    padding: 0 2rem;
-
-}
-
-.imgpara_01 {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 800;
-
-}
-
-#imgpara_02 {
-    margin-top: 20px;
-    font-size: 1.2rem;
-    font-weight: 200;
-    word-spacing: 1px;
-    letter-spacing: 1px;
-    text-align: left;
-    padding: 0 5rem;
-}
-
-
-
-.imgpara01 h5 {
-    background-color: #ffff99;
-    color: black;
-    display: inline-block;
-    padding: 0.6rem 0;
-    border-radius: 1.9rem;
-    border: 1px solid#ffff99;
-    width: 400px;
-    height: 47px;
-    margin: 3rem 0;
-}
-
-#astroCelebrations {
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    font-size: 1.5rem;
-}
 
 
 
@@ -928,7 +855,7 @@
     height: 296px;
     border-radius: 1.9rem;
     border: 1px solid#ffff99;
-    margin: 11rem;
+    margin: 9rem;
 }
 
 .partyimgpara {
@@ -944,11 +871,14 @@
     font-weight: 800;
 }
 
-.partyimgpara2 {
+#partyimgpara2 {
     text-align: right;
     margin-top: 20px;
     font-size: 1.2rem;
     font-weight: 200;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    padding: 0 2rem;
 }
 
 
@@ -1035,7 +965,7 @@
     word-spacing: 1px;
     letter-spacing: 1px;
     text-align: left;
-    padding: 0 5rem;
+    padding: 0 2rem;
 }
 
 
@@ -1220,26 +1150,32 @@
 /* FOOTER START  */
 
 .container {
-    text-align: center;
+    display: block;
     display: flex;
     padding-top: 2rem;
     justify-content: space-around;
     overflow: hidden;
+    text-align: center;
 }
 
 .container a {
     text-decoration: none;
     color: black;
     font-weight: 200;
+    padding: 0 7rem;
+    font-size: 1rem;
 }
+
+
 
 .astro {
     text-align: center;
     font-size: 1.2em;
     font-weight: 900;
-    padding-bottom: 2rem;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    align-content: center;
 
 }
-
 
 /* FOOTTER END */
