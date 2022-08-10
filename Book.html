@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Main.css">
+    <link rel="stylesheet" type="text/css" href="./Css/Main.css">
     <title>Document</title>
 </head>
 
@@ -26,38 +26,34 @@
         <!-- LOGO END -->
         <!-- HEADER START -->
         <header class="bg-lightyellow">
-            <div class="center_section">
-                <div class="container_center">
-                    <div class="container_center">
-                        <ul class="nav">
-                            <div class="naviteam">
-                                <li>
-                                    <a href="About.html" target="_self"
-                                        style="color:#000;text-decoration: none;border-right: none; ">ABOUT
-                                        US</a>
-                                </li>
-                            </div>
-                            <div class=" naviteam">
-                                <li>
-                                    <a href="Services.html" target="_self"
-                                        style="color:#000;text-decoration: none">SERVICES</a>
-                                </li>
-                            </div>
-                            <div class="naviteam">
-                                <li>
-                                    <a href="Faqs.html" target="_self"
-                                        style="color:#000;text-decoration: none;">FAQS</a>
-                                </li>
-                            </div>
-                            <div class="naviteam  nonline ">
-                                <li>
-                                    <a href="Book.html" target="_self"
-                                        style="color:#000;font-weight: 900;border-right:1px solid transparent; ">BOOK
-                                        NOW</a>
-                                </li>
-                            </div>
-                        </ul>
-                    </div>
+            <div class="container_center">
+                <div class="center_section">
+                    <ul class="nav">
+                        <div class="naviteam">
+                            <li>
+                                <a href="About.html" target="_self"
+                                    style="color:#000;text-decoration: none;border-right: none; ">ABOUT
+                                    US</a>
+                            </li>
+                        </div>
+                        <div class=" naviteam">
+                            <li>
+                                <a href="Services.html" target="_self"
+                                    style="color:#000;text-decoration: none">SERVICES</a>
+                            </li>
+                        </div>
+                        <div class="naviteam">
+                            <li>
+                                <a href="Faqs.html" target="_self" style="color:#000;text-decoration: none;">FAQS</a>
+                            </li>
+                        </div>
+                        <div class="naviteam  nonline ">
+                            <li>
+                                <a href="Book.html" target="_self" style="color:#000;font-weight: 900; ">BOOK
+                                    NOW</a>
+                            </li>
+                        </div>
+                    </ul>
                 </div>
             </div>
         </header>
@@ -68,50 +64,61 @@
             <div class="container_center">
                 <div class="formbody">
                     <section class="mainform2">
-                        <div>
-                            <p style="text-align:center;font-family: 'Cinzel';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 24px;
-                            line-height: 32px;;color: #fff ">BOOK A TOUR</p>
+                        <div class="heading">
+                            <p>BOOK A TOUR</p>
 
 
                             <div class="form2">
                                 <form action="">
 
-                                    <label for="fname">Client1Name*</label>
-                                    <!-- autofocus -->
-                                    <input type="text" id="fname1" name="fname" required>
-
-                                    <label for="secname">Client2Name(if applicable)</label>
-                                    <input type="text" id="secname1" name="secname">
-
-                                    <label for="phone">PhoneNumber*</label>
-                                    <input type="tel" id="phone1" name="phone" required>
-
-                                    <label for="email">EmailAddress*</label>
-                                    <input type="email" id="email1" name="email" required>
-
-
-                                    <label for="date">Desired Date of Event*</label>
-                                    <div class="maindate2">
-
-                                        <input type="text" id="date01" name="date" placeholder="MM">
-                                        <input type="text" id="date01" name="date" placeholder="DD">
-                                        <input type="text" id="date01" name="date" placeholder="YYYY">
-
-                                        <input type="checkbox" id="checkbox01" name="checkbox">
-                                        <label for="checkbox" id="checkbox02">No preference</label>
-
+                                    <div class="input">
+                                        <label for="fname">Client1Name*</label><!-- autofocus -->
+                                        <input type="text" class="forminput" id="fname1" name="fname" required>
                                     </div>
 
-                                    <h6>
-                                        Once this form has been submitted,our team will contact you shortly to
-                                        finalizeadate
-                                        and
-                                        time
-                                        for your tour!
-                                    </h6>
+                                    <div class="input">
+                                        <label for="secname">Client2Name(if applicable)</label>
+                                        <input type="text" class="forminput" id="secname1" name="secname">
+                                    </div>
+
+                                    <div class="input">
+                                        <label for="phone">PhoneNumber*</label>
+                                        <input type="tel" class="forminput" id="phone1" name="phone" required>
+                                    </div>
+
+                                    <div class="input">
+                                        <label for="email">EmailAddress*</label>
+                                        <input type="email" class="forminput" id="email1" name="email" required>
+                                    </div>
+
+
+                                    <div class="maindate002">
+                                        <div class="datename">
+                                            <label for="date">Desired Date of Tour*</label>
+
+                                            <div class="dates">
+                                                <input type="text" class="date010" name="date" placeholder="MM">
+                                                <input type="text" class="date010" name="date" placeholder="DD">
+                                                <input type="text" class="date010" name="date" placeholder="YYYY">
+                                            </div>
+                                        </div>
+
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="checkbox010" name="checkbox">
+                                            <label for="checkbox" class="checkbox020"><i>No preference</i></label>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="titleinfo">
+                                        <p id="titleinfo">
+                                            Once this form has been submitted,our team will contact you shortly to
+                                            finalizeadate
+                                            and
+                                            time
+                                            for your tour!
+                                        </p>
+                                    </div>
                                     <input type="submit" id="submit1" value="Submit">
                                 </form>
                             </div>
@@ -120,50 +127,68 @@
 
 
 
-                        <div class="formth2">
-                            <p style="text-align: center; font-family: 'Cinzel';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 24px;
-                            line-height: 32px; ; color: #fff;">BOOK THE VENUE</p>
+                        <div class="heading">
+                            <p>BOOK THE VENUE</p>
+
 
                             <div class="form2">
                                 <form action="">
 
-                                    <label for="fname">Client1Name*</label>
-                                    <!-- autofocus -->
-                                    <input type="text" id="fname1" name="fname" required>
+                                    <div class="input">
+                                        <label for="fname">Client1Name*</label><!-- autofocus -->
+                                        <input type="text" class="forminput" id="fname1" name="fname" required>
+                                    </div>
 
-                                    <label for="secname">Client2Name(if applicable)</label>
-                                    <input type="text" id="secname1" name="secname">
+                                    <div class="input">
+                                        <label for="secname">Client2Name(if applicable)</label>
+                                        <input type="text" class="forminput" id="secname1" name="secname">
+                                    </div>
 
-                                    <label for="phone">PhoneNumber*</label>
-                                    <input type="tel" id="phone1" name="phone " required>
+                                    <div class="input">
+                                        <label for="phone">PhoneNumber*</label>
+                                        <input type="tel" class="forminput" id="phone1" name="phone" required>
+                                    </div>
 
-                                    <label for="email">EmailAddress*</label>
-                                    <input type="email" id="email1" name="email " required>
-
-
-                                    <label for="date">Desired Date of Event*</label>
-                                    <div class="maindate2">
-                                        <input type="text" id="date01" name="date" placeholder="MM">
-                                        <input type="text" id="date01" name="date" placeholder="DD">
-                                        <input type="text" id="date01" name="date" placeholder="YYYY">
-
-                                        <input type="checkbox" id="checkbox01" name="checkbox">
-                                        <label for="checkbox" id="checkbox02">NO date set yet</label>
+                                    <div class="input">
+                                        <label for="email">EmailAddress*</label>
+                                        <input type="email" class="forminput" id="email1" name="email" required>
                                     </div>
 
 
-                                    <h6> Once this form has been submitted,our team will contact you shortly to discuss
-                                        pricing
-                                        and
-                                        further details!
-                                    </h6>
-                                    <input type="submit" id="submit01" value="Submit">
+                                    <div class="maindate002">
+                                        <div class="datename">
+                                            <label for="date">Desired Date of Event*</label>
+
+                                            <div class="dates">
+                                                <input type="text" class="date010" name="date" placeholder="MM">
+                                                <input type="text" class="date010" name="date" placeholder="DD">
+                                                <input type="text" class="date010" name="date" placeholder="YYYY">
+                                            </div>
+                                        </div>
+
+                                        <div class="checkbox">
+                                            <input type="checkbox" class="checkbox010" name="checkbox">
+                                            <label for="checkbox" class="checkbox020"><i>No date set yet</i></label>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="titleinfo">
+                                        <p id="titleinfo">
+                                            Once this form has been submitted,our team will contact you shortly to
+                                            finalizeadate
+                                            and
+                                            time
+                                            for your tour!
+                                        </p>
+                                    </div>
+                                    <input type="submit" id="submit1" value="Submit">
                                 </form>
                             </div>
                         </div>
+
+
+
 
                     </section>
                 </div>
